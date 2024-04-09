@@ -28,16 +28,28 @@
   }
   
   body {
-    background-image: url(/Users/hiro/Downloads/333321b8a7b44be7307f7319a8fdb2d6_m.jpg);     
+    padding-top: 200px;
+    margin:0;
+    background-image: url(/Users/hiro/Downloads/OIP.SpWAG4ZrY4U4gh8oCqzPygHaE9.jpeg);     
   }
 
   
   .nav {
       width: 1000px;
-      margin: 100px auto 0 auto;
+      margin: 30px auto 0 auto;
       text-align: center;
   }
 
+  .menu{
+    margin:0;
+    background-color: #eee;
+    height: 200px;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    z-index: 100;
+  }
   .menu img{
     height: auto;
     width: 100px;
@@ -84,7 +96,7 @@
   .nav-link:link, 
   .nav-link:visited, 
   .nav-link:active {
-      color: #fff;
+      color: #1f2c5f;
       font-weight: bold;
   }
 
@@ -201,7 +213,7 @@
   .submenu-link:link, 
   .submenu-link:visited, 
   .submenu-link:active {
-      color: #6EDB34;
+      color: #1f2c5f;
       padding: 10px 20px;
   }
   
@@ -239,7 +251,7 @@
     transform: translate(0);
 }
   .main_picture_1{
-    height       : 600px;
+    height       : 700px;
   }
   .box {
     margin       : auto;
@@ -254,8 +266,36 @@
     width: 600px;
     
   }
-  .main_picture_1{
-    height       : 600px;
+  .main_picture_2{
+    height       : 700px;
+  }
+  .information{
+    display:flex;
+    height: 300px;
+    #child1 {
+        background-color:#eee;
+    }
+    #child2 {
+        background-color:#eee;
+    }
+    @media (min-width: 600px) {
+        #parent {
+          display: flex;
+        }
+        #child1 {
+          flex-grow: 1;
+        }
+        #child2 {
+          flex-grow: 1;
+        }
+      }
+
+  }
+  .sponsors img{
+    height: 100px;
+  }
+  .tp_box{
+    height: 100px;
   }
 /* フェードインさせる要素 */
 
