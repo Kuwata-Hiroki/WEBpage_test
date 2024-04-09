@@ -172,7 +172,7 @@
       -webkit-transform: translate(0, 0) scale(.85);
       transform: translate(0, 0)scale(.85);
       transition: transform 0.1s ease-out, opacity 0.1s ease-out;
-      pointer-events: none;
+      pointer-events: all;
 
   }
   
@@ -292,6 +292,7 @@
 
   }
   .sponsors img{
+    padding-left: 10px;
     height: 100px;
   }
   .tp_box{

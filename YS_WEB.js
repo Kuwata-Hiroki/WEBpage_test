@@ -12,7 +12,7 @@ $(function () {
         // スクロールした量を取得
         const wScroll = $(window).scrollTop();
         //それぞれのフェードインクラスに繰り返し指定
-        $(".fadeIn,.fadeInLeft,.fadeInRight").each(function () {
+        $(".fadeIn,.fadeInLeft,.fadeInRight,.fadeInTop,.fadeInButtom").each(function () {
                 // それぞれのフェードインクラスのウィンドウからの高さを取得
                 const bPosition = $(this).offset().top;
             // その数値にウィンドウの高さを引き、最後に200pxを足す
