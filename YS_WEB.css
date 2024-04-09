@@ -28,15 +28,16 @@
   }
   
   body {
-      background-color: #6EDB34; 
+    background-image: url(/Users/hiro/Downloads/333321b8a7b44be7307f7319a8fdb2d6_m.jpg);     
   }
+
   
   .nav {
       width: 1000px;
       margin: 100px auto 0 auto;
       text-align: center;
   }
-  
+
   .menu img{
     height: auto;
     width: 100px;
@@ -86,6 +87,7 @@
       color: #fff;
       font-weight: bold;
   }
+
   
   .nav-link::before {
       content: "";
@@ -212,6 +214,49 @@
       margin: 12px 10px;
       border-top: 1px solid #eee;
   }
-  
+  .fadeInTop {
+    opacity: 0; 
+    transform: translateY(100px);
+    transition: all 1s; 
+  }
+  .fadeInButtom {
+    opacity: 0; 
+    transform: translateY(-100px);
+    transition: all 1s; 
+  }
+  .fadeInLeft {
+    opacity: 0; 
+    transform: translateX(100px);
+    transition: all 1s; 
+  }
+  .fadeInRight {
+    opacity: 0; 
+    transform: translateX(-100px);
+    transition: all 1s; 
+  }
+  .fadeInAnime {
+    opacity: 1;
+    transform: translate(0);
+}
+  .main_picture_1{
+    height       : 600px;
+  }
+  .box {
+    margin       : auto;
+    width        : 700px;
+    height       : 500px;
+    background   : #ffd3c5;
+  }
+  .box img{
+    position: relative;
+    display: block;
+    left: 50px;
+    width: 600px;
+    
+  }
+  .main_picture_1{
+    height       : 600px;
+  }
+/* フェードインさせる要素 */
 
   
